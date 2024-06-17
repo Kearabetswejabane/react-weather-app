@@ -1,10 +1,12 @@
+import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Weather App </h1>
+      <div className="Container">
+        <Weather />
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/Kearabetswejabane" target="blank">
@@ -18,7 +20,7 @@ function App() {
             Open Sourced
           </a>
         </footer>
-      </header>
+      </div>
     </div>
   );
 }
